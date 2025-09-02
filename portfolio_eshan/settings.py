@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-_9vegsd5b0%mrir7w6g!m)dt*-p+010ckub4b_qrdlz6@y$2u1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["https://akibeshan.pythonanywhere.com"]
 
 
 # Application definition
@@ -132,4 +132,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:5173',  # React dev server
+    'https://akib-eshan.netlify.app' # React prod server
 ]
